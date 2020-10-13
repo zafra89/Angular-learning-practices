@@ -11,6 +11,9 @@ export class HijoComponent implements OnInit {
   @Input() nombreHijo: string = 'sin nombre';
   @Output() cambioNombreHijo = new EventEmitter<string>();
 
+  edad: string = "Tienes 50 años";
+
+
   /*constructor( private dataService: DataService ) { }*/
 
   ngOnInit(): void {
